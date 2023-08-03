@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    
+    
+    <style>
+        h1{color: black;}
+        .pay{
+            background-color: rgba(111, 0, 255, 0.041);
+            padding:10px;
+            border: 3px solid rgba(0, 0, 0, 0.055);
+            border-radius: 4px;
+        }
+
+        h1{ text-align: center;}
+        input{ type="submit"}
+        
+
+
+        
+
+        
+        
+
+
+        
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="pay">
+    <header>
+        <h1>Payment form</h1>
+    </header>
+    <hr>
+
+    <h2>user information</h2>
+    <p> name *
+        <input type="text"required name="name" placeholder="arpit khare">
+</p>
+<fieldset>
+<p>
+    <legend aria-busy="false">gender</legend>
+    male <input type="radio" name="gender" id="male" value="M">
+    
+        female <input type="radio" name="gender" id="female" value="F">
+    </fieldset> </p>
+    <p> 
+     address:
+    <textarea name="address" id="address" cols="50" rows="10" placeholder="enter your address" ></textarea>
+
+    </p>
+    <p>
+        email 
+        <input type="email" name="email" placeholder="asd@123">
+
+    </p>
+    <p>
+        pincode 
+        <input type="pincode" name="pincode" placeholder="473233">
+    </p>
+
+    <h2> Payment option</h2>
+
+    <p>
+         select card type 
+        <select name="card type" id="card type" required>
+            <option value="credit card">credit card</option>
+            <option value="debit card">debit card</option>
+            <option value="master card">master card</option>
+
+
+
+
+
+        </select>
+
+        
+    </p>
+    <p> cvv
+        <input type="cvv" name="cvv" placeholder="123">
+
+    </p>
+   <p>
+    expire date
+
+    <input type="expire date" placeholder="date/month/year" >
+   </p>
+<p>
+     <input type="submit" value="pay now" name="" id="">
+</p>
+
+ </div>   
+</body>
+</html>
